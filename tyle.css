@@ -1,0 +1,59 @@
+.nav{
+    background-color: rgba(66, 62, 62, 0.856);
+    margin: 0% -1%;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+}
+
+main .nav{
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin: 1% 3.5%;
+}
+
+#nav_connect{
+    height: 50%;
+    width: 7%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+main{
+    background-image: url(images/banner.jpg);
+    margin: 0% -2%;
+    height: 500px;
+}
+
+.content_div1 h1{
+    color: white;
+   
+}
+
+#explore{
+    height: 22px;
+    width: 7%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.content .content_div1 p{
+    width: 50%;
+    font-size: 20px;
+    color: white;
+}
+
+.content{
+    margin: 1px 5%;
+}
+

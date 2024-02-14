@@ -1,0 +1,93 @@
+body{
+    display: grid;
+    grid-row: 1fr 1fr;
+    gap: 5px;
+}
+.blog_header{
+    display: flex;
+    gap: 5px;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+.header_content1{
+    background-color: rgb(165, 8, 8);
+    width: 40%;
+}
+
+.header_content2{
+    background-color: black;
+    width: 60%;
+}
+
+.blog_body{
+    height: 500px;
+    background-color: bisque;
+    display: flex;
+    gap: 5px;
+}
+.blog_body div{
+    height: 100%;
+}
+.blog_body1{
+    background-color: rgb(18, 209, 11);
+    width: 10%;
+}
+
+.blog_body2{
+    display: grid;
+    grid-template-rows:  1fr 13%;
+    gap: 5px;
+    background-color: white;
+    width: 100%;
+}
+
+.blog_body2 .blog_body2_01{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    gap: 5px;
+}
+
+.blog_body2_01 .familly1{
+    width: 90%;
+    background-color: white;
+}
+
+.familly1{
+    display: grid;
+    gap: 5px;
+    grid-template-rows: 1fr 50%;
+}
+
+.familly1 .familly1_01{
+    background-color: rgb(46, 5, 85);
+}
+
+.familly1 .familly1_02{
+    background-color: rgb(216, 190, 240);
+}
+
+.blog_body2_01 .familly2{
+    width: 10%;
+    background-color: rgb(182, 109, 250);
+    display: grid;
+    grid-template-rows: 25% 25% 25%;
+}
+
+.familly2 .familly2_01{
+    background-color: red;
+}
+
+.familly2 .familly2_02{
+    background-color: rgb(245, 108, 199);
+}
+
+.familly2 .familly2_03{
+    background-color: rgb(107, 198, 240);
+}
+
+.blog_body2 .blog_body2_02{
+    background-color: orange;
+    height: 100%;
+}
